@@ -1,0 +1,284 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana,Arial,Sans-serif;
+}
+
+/*CONTENT*/
+#main-container {
+  width: 100%;
+  height: 100%;
+  font-size: 85%;
+}
+
+#content-wrapper {
+  color: #000;
+  float:left;
+  height:100%;
+  width:100%;
+}
+
+#content {
+  text-align: left;
+  width:700px;
+  padding: 30px;
+  line-height: 150%;
+  background-color:#FFF;
+}
+
+#content-scroll-wrapper {
+  margin-left:220px;
+  overflow-x:hidden;
+  overflow-y:auto;
+  height:100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color:#444;
+  margin-top:0px;
+}
+
+.body-paragraph{
+  margin-top:0px;
+}
+
+.bold {
+  font-weight:bold;
+}
+
+/*SIDEBAR*/
+#sidebar-wrapper{
+  position:fixed;
+  height: 100%;
+  width: 220px;
+  background-color:#444;
+  text-align: right;
+  float: left;
+  color: #444;
+}
+
+#sidebar-titlebar{
+  padding:20px;
+  background-color:#444;
+  color: #fff;
+}
+
+#sidebar-main-title {
+  font-size:170%;
+}
+
+#sidebar-title-link{
+  text-decoration:none;
+}
+#sidebar-title-link:link{
+  text-decoration:none;
+}
+#sidebar-title-link:visited{
+  text-decoration:none;
+}
+#sidebar-title-link:hover{
+  text-decoration:none;
+}
+#sidebar-title-link:active{
+  text-decoration:none;
+}
+
+.sidebar-link{
+  background-color:#F8F8F8;
+  text-decoration:underline;
+}
+.sidebar-link:link {color:#000;}                                /* unvisited link */
+.sidebar-link:visited {color:#000;}                             /* visited link */
+.sidebar-link:hover {color:#000; text-decoration:none;}         /* mouse over link */
+.sidebar-link:active {color:#000;}                              /* selected link */
+
+.sidebar-link-div{
+  padding:17px 20px 17px 20px;
+  padding-left:10px;
+}
+
+.sidebar-img{
+  padding:20px;
+}
+
+.sidebar-line {
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+}
+
+.sidebar-title {
+  font-weight:bold;
+}
+
+.sidebar-text {
+  color: #000;
+  background-color: #DDD;
+  padding: 17px 20px 17px 20px;
+}
+
+#pale-green-sidebar:hover {
+  background-color:#ECFFCF;
+}
+#pale-green-sidebar {
+  background-color:#CCFF80;
+}
+#yellow-sidebar:hover{
+  background-color:#FFFFCC;
+}
+#yellow-sidebar{
+  background-color:#FFFF77;
+}
+#orange-sidebar:hover{
+  background-color:#FFEDCC;
+}
+#orange-sidebar{
+  background-color:#FFCF77;
+}
+#red-sidebar:hover{
+  background-color:#FFDBDB;
+}
+#red-sidebar{
+  background-color:#FFA0A0;
+}
+#light-blue-sidebar:hover{
+  background-color:#CCF2FF;
+}
+#light-blue-sidebar{
+  background-color:#77DCFF;
+}
+#dark-blue-sidebar:hover{
+  background-color:#CCCCFF;
+}
+#dark-blue-sidebar{
+  background-color:#7777FF;
+}
+#purple-sidebar:hover{
+  background-color:#E9CCF6;
+}
+#purple-sidebar{
+  background-color:#C577E7;
+}
+
+/*SUBTITLE*/
+#subtitle-box {
+  padding: 20px;
+  color: #000;
+}
+
+#subtitle{
+  font-size: 170%;
+}
+
+.pale-green-subtitle {
+  background-color:#CCFF80;
+}
+.yellow-subtitle{
+  background-color:#FFFF77;
+}
+.orange-subtitle{
+  background-color:#FFCF77;
+}
+.red-subtitle{
+  background-color:#FFA0A0;
+}
+.light-blue-subtitle{
+  background-color:#77DCFF;
+}
+.dark-blue-subtitle{
+  background-color:#7777FF;
+}
+.purple-subtitle{
+  background-color:#C577E7;
+}
+.grey-subtitle{
+  background-color:#DDD;
+}
+
+/*PAGINATION*/
+.next_page {
+  margin-left:auto;
+  text-align:right;
+  width: 100px;
+}
+
+/*NEWS*/
+.latest-news-title{
+  margin-bottom:0px;
+}
+
+.latest-news{
+  padding-left:30px;
+  padding-top:0px;
+}
+
+.item_meta {
+  font-size:80%;
+  color:#888;
+}
+
+.latest-news-link{
+  text-decoration:none;
+  color:#000;
+}
+.latest-news-link:link{
+  text-decoration:none;
+  color:#000;
+}
+.latest-news-link:visited{
+  text-decoration:none;
+  color:#000;
+}
+.latest-news-link:hover{
+  text-decoration:none;
+  color:#000;
+}
+.latest-news-link:active{
+  text-decoration:none;
+  color:#000;
+}
+
+.latest-news-link .latest-news-title{
+  text-decoration:underline;
+}
+.latest-news-link:link .latest-news-title{
+  text-decoration:underline;
+}
+.latest-news-link:visited .latest-news-title{
+  text-decoration:underline;
+}
+.latest-news-link:hover .latest-news-title{
+  text-decoration:none;
+}
+.latest-news-link:active .latest-news-title{
+  text-decoration:underline;
+}
+
+/*EVENTS*/
+.date-time-title{
+  margin: 0px;
+}
+
+/*LOGIN*/
+.login-input{
+  padding: 0.5em;
+}
+
+.error-text {
+  color:#D00;
+}
+
+/*ADMIN*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 15px;
+}
+
+#table-title-row {
+  font-weight:bold;
+}
